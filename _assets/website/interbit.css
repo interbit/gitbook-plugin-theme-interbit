@@ -662,6 +662,15 @@ pre[class*="language-"] {
   opacity: .7;
 }
 
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #75992d;
+}
+
 .token.entity,
 .token.url,
 .token.symbol,
