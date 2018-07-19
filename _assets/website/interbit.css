@@ -671,6 +671,12 @@ pre[class*="language-"] {
   color: #75992d;
 }
 
+.token.atrule,
+.token.attr-value,
+.token.function {
+  color: #a59d5b;
+}
+
 .token.entity,
 .token.url,
 .token.symbol,
