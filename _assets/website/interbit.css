@@ -398,7 +398,7 @@ img.support-icon {
 }
 
 .tips.info span:not(.token) {
-  content: url('../../assets/img/info.png');
+  content: url('images/info.png');
 }
 
 
@@ -413,7 +413,7 @@ img.support-icon {
 }
 
 .tips.warning span {
-  content: url('../../assets/img/warning.png');
+  content: url('images/warning.png');
 }
 
 /*TIPS -WARNING STYLE*/
@@ -427,7 +427,7 @@ img.support-icon {
 }
 
 .tips.danger span {
-  content: url('../../assets/img/danger.png');
+  content: url('images/danger.png');
 }
 
 /*TIPS -WARNING STYLE*/
@@ -441,7 +441,7 @@ img.support-icon {
 }
 
 .tips.success span {
-  content: url('../../assets/img/success.png');
+  content: url('images/success.png');
 }
 
 /* Asciidoctor admonition styling */
