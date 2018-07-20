@@ -744,7 +744,13 @@ pre > code.highlight {
   outline-offset: .4em;
 }
 
-.markdown-section h1 code {
+.markdown-section h1 code,
+.markdown-section h2 code,
+.markdown-section h3 code,
+.markdown-section h4 code,
+.markdown-section h5 code,
+.markdown-section h6 code,
+.markdown-section h7 code {
   font-size: 1em ;
 }
 
