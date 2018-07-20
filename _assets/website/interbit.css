@@ -87,6 +87,9 @@
   padding: 10px 4px 10px 16px;
 }
 
+.markdown-section img {
+  height: auto;
+}
 
 /*Top level chapters in left nav*/
 .book-summary > nav > ul.summary > li.chapter > a {
@@ -339,16 +342,6 @@ p.description {
   margin-bottom: 24px;
   line-height: 1.4em;
   font-size: 14px;
-}
-
-img.comm-icon {
-  max-width: 48px;
-}
-
-img.support-icon {
-  height: 44px;
-  padding-top: 6px;
-  margin-bottom: 6px;
 }
 
 .filename {
