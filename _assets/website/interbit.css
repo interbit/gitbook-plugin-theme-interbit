@@ -744,7 +744,7 @@ pre > code.highlight {
   outline-offset: .4em;
 }
 
-h1 code {
+.markdown-section h1 code {
   font-size: 2em ;
 }
 
