@@ -744,6 +744,10 @@ pre > code.highlight {
   outline-offset: .4em;
 }
 
+h1 code {
+  font-size: 2em ;
+}
+
 /*Override Exercise Plugin Styling*/
 
 .book .book-body .page-wrapper .page-inner .exercise {
