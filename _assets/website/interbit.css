@@ -91,6 +91,18 @@
   height: auto;
 }
 
+iframe.frame, span.image.frame > img {
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+span.image:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*Top level chapters in left nav*/
 .book-summary > nav > ul.summary > li.chapter > a {
   font-weight: 700;
