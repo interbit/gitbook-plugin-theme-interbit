@@ -103,6 +103,10 @@ span.image:after {
   clear: both;
 }
 
+.medium-zoom-overlay, img.medium-zoom-image {
+  z-index: 1000;
+}
+
 /*Top level chapters in left nav*/
 .book-summary > nav > ul.summary > li.chapter > a {
   font-weight: 700;
