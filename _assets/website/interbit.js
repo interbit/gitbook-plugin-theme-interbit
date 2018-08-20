@@ -19,7 +19,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
   gitbook.events.on('page.change', function() {
     removePublishedBy();
 
-    mediumZoom('span.frame img', {
+    mediumZoom('span.frame img, span.zoom img', {
       background: "#000",
       scrollOffset: 24
     });
