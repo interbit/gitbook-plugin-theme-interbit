@@ -760,7 +760,7 @@ pre > code.highlight {
 .markdown-section h5 code,
 .markdown-section h6 code,
 .markdown-section h7 code {
-  font-size: 1em ;
+  font-size: 0.9em;
 }
 
 /*Override Exercise Plugin Styling*/
