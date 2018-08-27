@@ -937,6 +937,10 @@ a.navigation {
   border: 1px solid rgba(0, 0, 0, 0.09);
 }
 
+.markdown-section table td div.paragraph:last-child p:last-child {
+  margin-bottom: 0;
+}
+
 .markdown-section table.frame-h th,
 .markdown-section table.frame-h td {
   border-left: 0 none;
@@ -1003,4 +1007,10 @@ a.navigation {
 .markdown-section .exampleblock *:last-child,
 .markdown-section .exampleblock *:last-child p {
   margin-bottom: 0
+}
+
+.markdown-section code.signature {
+  font-size: 0.75em;
+  background-color: rgba(0, 0, 255, 0.1);
+  border-top: 2px solid rgba(0, 0, 255, 0.5);
 }
