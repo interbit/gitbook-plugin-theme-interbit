@@ -1009,8 +1009,75 @@ a.navigation {
   margin-bottom: 0
 }
 
-.markdown-section code.signature {
-  font-size: 0.75em;
+/* API ------------------------------------------------------------ */
+
+.markdown-section div.hdlist table tr {
+  border: 0 none;
+}
+
+.markdown-section div.hdlist table tr:nth-child(2n) {
+  background-color: inherit;
+}
+
+.markdown-section div.hdlist table td {
+  vertical-align: top;
+  border: 0 none;
+  padding: 4px 0;
+}
+
+.markdown-section div.hdlist table td.hdlist1 {
+  text-align: right;
+  padding-right: 1em;
+  width: 20%;
+}
+
+.markdown-section div.hdlist table td.hdlist2 {
+  width: 80%;
+}
+
+.markdown-section .api.p {
+  font-style: normal;
+  font-weight: bold;
+  color: inherit;
+}
+
+.markdown-section .api.t,
+.markdown-section .api.r,
+.markdown-section .api.o,
+.markdown-section .api.d {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.6);
+  display: block;
+}
+
+.markdown-section .api.r {
+  color: rgba(64, 0, 0, 0.6);
+}
+
+.markdown-section .api.d {
+  color: rgba(0, 64, 0, 0.6);
+}
+
+.markdown-section .api.o {
+  color: rgba(0, 0, 64, 0.6);
+}
+
+.markdown-section em.signature {
+  font-style: normal;
+  font-size: 0.6em;
   background-color: rgba(0, 0, 255, 0.1);
   border-top: 2px solid rgba(0, 0, 255, 0.5);
+  white-space: normal;
+  display: inline-block;
+  padding: 4px 8px;
+  letter-spacing: 0.7px
+}
+
+.markdown-section em.signature .api.r,
+.markdown-section em.signature .api.o,
+.markdown-section em.signature .api.d {
+  display: inline;
+  font-weight: bold;
 }
