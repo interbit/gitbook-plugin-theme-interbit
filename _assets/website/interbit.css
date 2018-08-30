@@ -1035,6 +1035,12 @@ a.navigation {
   width: 80%;
 }
 
+.markdown-section div.hdlist table td .exampleblock {
+  background: inherit;
+  padding: 0;
+  border: 0 none;
+}
+
 .markdown-section .api.p {
   font-style: normal;
   font-weight: bold;
