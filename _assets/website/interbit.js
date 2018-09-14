@@ -20,7 +20,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     removePublishedBy();
 
     mediumZoom('span.frame img, span.zoom img', {
-      background: "#000",
+      background: "#fff",
       scrollOffset: 24
     });
   });
