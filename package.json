@@ -11,6 +11,12 @@
   "author": {
     "name": "BTL"
   },
+  "dependencies": {
+    "interbit-ui-components": "^0.4.53"
+  },
+  "scripts": {
+    "install": "bash ./scripts/install.sh"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
