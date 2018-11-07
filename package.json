@@ -11,10 +11,10 @@
   "author": {
     "name": "BTL"
   },
-  "dependencies": {
+  "dependencies-off": {
     "interbit-ui-components": "^0.4.53"
   },
-  "scripts": {
+  "scripts-off": {
     "install": "bash ./scripts/install.sh"
   },
   "main": "index.js",
